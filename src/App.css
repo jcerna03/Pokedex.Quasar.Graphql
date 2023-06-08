@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Braah+One&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(53, 53, 92, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root {
+  --grass: rgb(164, 213, 65);
+  --fire: rgb(238, 131, 41);
+  --water: rgb(139, 172, 246);
+  --bug: rgb(238, 172, 65);
+  --normal: rgb(255, 230, 139);
+  --poison: rgb(205, 98, 180);
+  --electric: rgb(246, 230, 82);
+  --ground: rgb(139, 98, 24);
+  --fairy: rgb(255, 213, 189);
+  --fighting: rgb(246, 222, 180);
+  --psychic: rgb(206, 182, 16);
+  --rock: rgb(180, 180, 156);
+  --ghost: rgb(148, 115, 180);
+  --dragon: rgb(238, 156, 57);
+
+  --grass-transparent: rgba(164, 213, 65, 0.5);
+  --fire-transparent: rgba(238, 131, 41, 0.5);
+  --water-transparent: rgba(139, 172, 246, 0.5);
+  --bug-transparent: rgba(238, 172, 65, 0.5);
+  --normal-transparent: rgba(255, 230, 139, 0.5);
+  --poison-transparent: rgba(205, 98, 180, 0.5);
+  --electric-transparent: rgba(246, 230, 82, 0.5);
+  --ground-transparent: rgba(139, 98, 24, 0.5);
+  --fairy-transparent: rgba(255, 213, 189, 0.5);
+  --fighting-transparent: rgba(246, 222, 180, 0.5);
+  --psychic-transparent: rgba(206, 182, 16, 0.5);
+  --rock-transparent: rgba(180, 180, 156, 0.5);
+  --ghost-transparent: rgba(148, 115, 180, 0.5);
+  --dragon-transparent: rgba(238, 156, 57, 0.5);
+}
+
+h5,
+h6 {
+  /* 1 pixel black shadow to left, top, right and bottom */
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-family: 'Braah One', sans-serif;
+  margin: 0 !important;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.bg-grass {
+  background-color: var(--grass);
+}
+
+.bg-fire {
+  background-color: var(--fire);
+}
+
+.bg-water {
+  background-color: var(--water);
+}
+
+.bg-bug {
+  background-color: var(--bug);
+}
+
+.bg-normal {
+  background-color: var(--normal);
+}
+
+.bg-poison {
+  background-color: var(--poison);
+}
+
+.bg-electric {
+  background-color: var(--electric);
+}
+
+.bg-ground {
+  background-color: var(--ground);
+}
+
+.bg-fairy {
+  background-color: var(--fairy);
+}
+
+.bg-fighting {
+  background-color: var(--fighting);
+}
+
+.bg-psychic {
+  background-color: var(--psychic);
+}
+
+.bg-rock {
+  background-color: var(--rock);
+}
+
+.bg-ghost {
+  background-color: var(--ghost);
+}
+
+.bg-dragon {
+  background-color: var(--dragon);
+}
+
+.bg-grass-transparent {
+  background-color: var(--grass-transparent);
+}
+
+.bg-fire-transparent {
+  background-color: var(--fire-transparent);
+}
+
+.bg-water-transparent {
+  background-color: var(--water-transparent);
+}
+
+.bg-bug-transparent {
+  background-color: var(--bug-transparent);
+}
+
+.bg-normal-transparent {
+  background-color: var(--normal-transparent);
+}
+
+.bg-poison-transparent {
+  background-color: var(--poison-transparent);
+}
+
+.bg-electric-transparent {
+  background-color: var(--electric-transparent);
+}
+
+.bg-ground-transparent {
+  background-color: var(--ground-transparent);
+}
+
+.bg-fairy-transparent {
+  background-color: var(--fairy-transparent);
+}
+
+.bg-fighting-transparent {
+  background-color: var(--fighting-transparent);
+}
+
+.bg-psychic-transparent {
+  background-color: var(--psychic-transparent);
+}
+
+.bg-rock-transparent {
+  background-color: var(--rock-transparent);
+}
+
+.bg-ghost-transparent {
+  background-color: var(--ghost-transparent);
+}
+
+.bg-dragon-transparent {
+  background-color: var(--dragon-transparent);
+}
